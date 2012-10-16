@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionConventions.Service", "SubscriptionConventions.Service\SubscriptionConventions.Service.csproj", "{2D16BDE7-77AB-4B67-87FC-DEE226C1ACB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionConventions.Producer", "SubscriptionConventions.Producer\SubscriptionConventions.Producer.csproj", "{E1F5335E-CE01-4A3C-9F4A-A728C4CEF0A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D16BDE7-77AB-4B67-87FC-DEE226C1ACB2}.Debug|x86.ActiveCfg = Debug|x86
+		{2D16BDE7-77AB-4B67-87FC-DEE226C1ACB2}.Debug|x86.Build.0 = Debug|x86
+		{2D16BDE7-77AB-4B67-87FC-DEE226C1ACB2}.Release|x86.ActiveCfg = Release|x86
+		{2D16BDE7-77AB-4B67-87FC-DEE226C1ACB2}.Release|x86.Build.0 = Release|x86
+		{E1F5335E-CE01-4A3C-9F4A-A728C4CEF0A7}.Debug|x86.ActiveCfg = Debug|x86
+		{E1F5335E-CE01-4A3C-9F4A-A728C4CEF0A7}.Debug|x86.Build.0 = Debug|x86
+		{E1F5335E-CE01-4A3C-9F4A-A728C4CEF0A7}.Release|x86.ActiveCfg = Release|x86
+		{E1F5335E-CE01-4A3C-9F4A-A728C4CEF0A7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

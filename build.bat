@@ -18,7 +18,7 @@ set MSBUILD_PATH=C:\Windows\Microsoft.NET\Framework\v4.0.30319\
 @echo ==================================================
 @echo Retrieving NuGet packages ...
 @echo ==================================================
-call nuget Install RabbitBus.Serialization.Json -Version 1.3.3-alpha -o %LIB_PATH% -Source %FEED% -ExcludeVersion -Prerelease
+call nuget Install RabbitBus.Serialization.Json -Version 1.3.3 -o %LIB_PATH% -Source %FEED% -ExcludeVersion
 call nuget Install Topshelf.Log4Net -Version 3.0.2 -o %LIB_PATH% -Source %FEED% -ExcludeVersion -Prerelease
 call nuget Install Autofac -Version 2.6.3.862 -o %LIB_PATH% -Source %FEED% -ExcludeVersion -Prerelease
 

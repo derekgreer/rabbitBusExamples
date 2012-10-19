@@ -155,7 +155,6 @@
     <Compile Include="Initialization\IApplicationInitializer.cs" />
     <Compile Include="Initialization\RabbitBusModule.cs" />
     <Compile Include="Initialization\RouteInitializer.cs" />
-    <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@using(Html.BeginForm("Order", "Home"))
+{
+    <label>Enter a book to order:</label>
+    @Html.TextBox("bookName")
+    <button type="submit">Place Order</button>
+                       
+}

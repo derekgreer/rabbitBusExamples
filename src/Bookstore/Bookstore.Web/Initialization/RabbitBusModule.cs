@@ -17,7 +17,7 @@ namespace Bookstore.Web.Initialization
                                                     .Publish<BookOrder>()
                                                     .WithExchange("bookstore-exchange", cfg => cfg.Direct().Durable().Not.AutoDelete()))
                               .Build())
-                .As<IBus>()
+                .As<IBus>().SingleInstance()
                 .OnActivated(args => args.Instance.Connect(ConfigurationManager.ConnectionStrings["amqp"].ConnectionString))
                 .OnRelease(bus => bus.Close());
         }
